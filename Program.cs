@@ -43,10 +43,10 @@ do
         "\n" +
         "Faites votres choix : ");
 
-    if(int.TryParse(Console.ReadLine(), out int choix))
+    if (int.TryParse(Console.ReadLine(), out int choix))
     {
 
-        switch(choix)
+        switch (choix)
         {
             case 0:
                 Environment.Exit(0);
@@ -121,7 +121,8 @@ do
                 break;
 
         }
-    } else
+    }
+    else
     {
         Console.WriteLine("Entrer un nombre");
     }
